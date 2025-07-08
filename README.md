@@ -1,4 +1,6 @@
 ## Conversational AI Demo
+For the Youtube demo:
+https://youtu.be/23fPA_VVFLQ
 
 ## Setup
 
@@ -28,7 +30,3 @@ pnpm dev
 bun dev
 ```
 
-## Learn More
-
-- [Conversational AI Quickstart](https://elevenlabs.io/docs/conversational-ai/quickstart)
-- [Conversational AI SDK](https://elevenlabs.io/docs/libraries/conversational-ai-sdk-js)
