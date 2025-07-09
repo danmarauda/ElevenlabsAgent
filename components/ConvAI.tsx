@@ -32,6 +32,11 @@ export function ConvAI() {
   const [capturedImage, setCapturedImage] = React.useState<string | null>(null);
   const screenStreamRef = React.useRef<MediaStream | null>(null);
   const captureIntervalRef = React.useRef<NodeJS.Timeout | null>(null);
+  // Request microphone permission on component mount
+  React.useEffect(() => {
+    requestMicrophonePermission();
+  }, []);
+
 
   // OpenRouter API configuration
   const OPENROUTER_API_KEY = process.env.NEXT_PUBLIC_OPENROUTER_API_KEY;
